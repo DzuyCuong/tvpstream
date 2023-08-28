@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+  <link href="https://primul.md/favicon/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+<link href="https://primul.md/favicon/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" />
+<link href="https://primul.md/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+<link href="https://primul.md/favicon/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="https://primul.md/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+<link href="https://primul.md/favicon/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="https://primul.md/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
+<link href="https://primul.md/favicon/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="https://primul.md/favicon/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="https://primul.md/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+<link href="https://primul.md/favicon/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png" />
+<link href="https://primul.md/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png" />
+<link href="https://primul.md/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+<link color="#0757a8" href="https://primul.md/favicon/safari-pinned-tab.svg" rel="mask-icon" />
+<link href="https://primul.md/favicon/favicon.ico" rel="shortcut icon" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66XW9G2BKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-66XW9G2BKX');
+</script>
+</head>
+
+<style type="text/css">
+    html, body {
+        height:100%;
+        overflow:hidden;
+    }
+    * {
+        border: medium none;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-family: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    body {
+        font: 12px "Myriad Pro", "Lucida Grande", "Helvetica Neue", sans-serif;
+        text-align: center;
+        color: #999;
+        background-color: #000000;
+    }
+    .vjs-poster {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .video-js {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .video-js:after {
+        content: '.';
+        display: block;
+        position: relative;
+        padding: 40.1% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+        margin: 0 0 0 -100%;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .video-js .vjs-big-play-button {
+           font-size: 5em;
+		   position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+    }
+</style>
+
+<body>
+  <video
+    id="player"
+    class="video-js"
+	autoplay="true"
+    controls
+    preload="auto"
+    width="720"
+    height="480"
+	poster="https://upload.wikimedia.org/wikipedia/commons/3/39/TvpInfo.jpg?20090713120130"
+    
+    data-setup="{}"
+  >
+    <source src="tvpinfo.m3u8" type="application/x-mpegURL">
+
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.20.3/video.min.js">
+	videojs('player', {autoplay: true});
+  </script>
+  
+
+</body>
+
+</html>
+
